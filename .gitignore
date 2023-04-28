@@ -1,0 +1,43 @@
+# Ignore Rust and Cargo files
+backend/target/
+backend/Cargo.lock
+backend/.cargo/
+
+# Ignore Node.js, pnpm, and Next.js files
+frontend/node_modules/
+frontend/.next/
+frontend/.pnpm-debug.log*
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/.npmrc
+frontend/.yarnrc
+
+# Ignore Docker and Kubernetes files
+.dockerignore
+docker-compose.override.yml
+kubernetes/*.yaml
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignore temporary files and directories
+*~
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.sublime-*
+*.iml
+.idea/
+
+# Ignore pre-commit and linter logs
+pre-commit.log
+.eslintcache
